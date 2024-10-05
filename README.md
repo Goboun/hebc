@@ -78,7 +78,7 @@ If you would like to reach out for collaboration or any other inquiries, here ar
 
 - **Phone**: 07 82 99 36 97
 - **Email**: hebc95290@gmail.com
-- **Location**: L’Isle-Adam, France
+- **Location**: France
 
 You can also use the **contact form** available directly on the website.
 
@@ -88,7 +88,7 @@ You can also use the **contact form** available directly on the website.
 ***
 This portfolio was built using the following technologies:
 - **Frontend**: HTML5, CSS3, Bootstrap, JavaScript
-- **Animation**: jQuery, Animate.css, WOW.js
+- **Animation**: jQuery, Animate.css
 - **Tools**: Git, GitHub, VS Code
 - **Images**: DepositPhotos, Unsplash
 
