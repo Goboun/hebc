@@ -1,45 +1,97 @@
-# BANDOIS--CERVEAU Henri-Emmanuel (HEBC)
+# Portfolio - Henri-Emmanuel BANDOIS-CERVEAU (HEBC)
 ***
-Ce site a été réalisé par HEBC dans le cadre d'une initiative autodidacte, créer un portfolio en HTML, CSS et JS, en Octobre 2024.
 
-Ver.8.1 (03/10/2024)
+This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of a self-taught initiative to design an interactive portfolio using HTML, CSS, and JavaScript. The portfolio showcases my skills, projects, and provides easy access to contact information. It was first launched in October 2024 and is continuously updated to reflect my growth and experiences.
+
+**Current Version:** 8.1 (Updated on 03/10/2024)
+
+---
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Presentation](#presentation)
-3. [Liens](#liens)
-4. [Fonctionnement](#fonctionnement)
-   
-### Introduction
+2. [Overview](#overview)
+3. [Useful Links](#useful-links)
+4. [Features](#features)
+5. [Contact](#contact)
+6. [Technologies Used](#technologies-used)
+
+---
+
+## Introduction
 ***
-**HEBC's Production**
-- Retrouvez sur notre site les différents horaires de trains et de RER de la région parisienne.
-- Toutes les informations dont vous avez besoin pour vos trajets sont disponibles dessus !
+Welcome to my portfolio! This site is designed to give you an insight into my web development and project management skills. You will find examples of my recent work, details about my ongoing projects, and a simple way to reach me.
 
-![alt text](https://st.depositphotos.com/1934071/2750/i/450/depositphotos_27501869-stock-photo-fast-moving-train.jpg)
+My goal is to highlight my expertise in fields such as:
+- **Web Development** (HTML, CSS, JavaScript)
+- **Back-End Development** (PHP, SQL)
+- **Project Management** and **Team Collaboration**
+- **UX/UI Design**
 
-### Presentation
+---
+
+## Overview
 ***
+On this portfolio, you will find:
 
-**HEBC's Corporation présente :**
-BANDOIS--CERVEAU Henri-Emmanuel | 22202642
+### Projects
+I invite you to explore some of my recent projects, including:
+- A **transport information website** for the Paris region, featuring train and RER schedules.
+- A **card game** developed as part of a software engineering project.
+- Several responsive websites built for various clients.
 
-![alt text](https://www.plandeparis.info/plan-bus/carte-bus.png)
+![Project Preview](https://st.depositphotos.com/1934071/2750/i/450/depositphotos_27501869-stock-photo-fast-moving-train.jpg)
 
-### Liens
+### Skills
+I am proficient in the following programming languages:
+- **Web Languages**: HTML, CSS, JavaScript
+- **Back-End**: PHP, SQL
+- **Programming Languages**: Python, Java, C, Lua
+
+---
+
+## Useful Links
 ***
-- [Hebc's Portfolio (Http)](http://goboun.github.io/hebc/)
-- [Hebc's Portfolio (Https)](https://goboun.github.io/hebc/)
+Check out my online portfolio or connect with me via the following links:
+- [Portfolio HTTP](http://goboun.github.io/hebc/)
+- [Portfolio HTTPS](https://goboun.github.io/hebc/)
+- [GitHub](https://github.com/goboun)
 
-![alt text](https://f.hellowork.com/blogdumoderateur/2013/05/internet-240x193.jpg)
+![Useful Links](https://f.hellowork.com/blogdumoderateur/2013/05/internet-240x193.jpg)
 
-### Fonctionnement
+---
+
+## Features
 ***
-*Ce portfolio renseigne :*
-- Beaucoup d'informations sur HEBC !
-- Consulter ses compétences !
-- Son niveau de connaissances dans des domaines précis !
-- Des exemples de ses travaux !
-- Un moyen simple et efficace de la contacter professionellement !
+This portfolio allows you to:
+- Explore my **recent projects** and accomplishments.
+- **Download my resume** or view my professional information.
+- **Review my technical skills** and areas of expertise.
+- **Contact me** directly for professional inquiries through an integrated form.
 
-![alt text](https://st2.depositphotos.com/1258938/7766/i/450/depositphotos_77668624-stock-photo-subway-train-paris-france.jpg)
+![Portfolio Features](https://st2.depositphotos.com/1258938/7766/i/450/depositphotos_77668624-stock-photo-subway-train-paris-france.jpg)
+
+---
+
+## Contact
+***
+If you would like to reach out for collaboration or any other inquiries, here are my contact details:
+
+- **Phone**: 07 82 99 36 97
+- **Email**: hebc95290@gmail.com
+- **Location**: L’Isle-Adam, France
+
+You can also use the **contact form** available directly on the website.
+
+---
+
+## Technologies Used
+***
+This portfolio was built using the following technologies:
+- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript
+- **Animation**: jQuery, Animate.css, WOW.js
+- **Tools**: Git, GitHub, VS Code
+- **Images**: DepositPhotos, Unsplash
+
+---
+
+Thank you for visiting my portfolio. Feel free to explore and reach out if you'd like to discuss my work or potential collaborations!
