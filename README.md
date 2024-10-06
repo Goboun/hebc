@@ -39,7 +39,7 @@ I invite you to explore some of my recent projects, including:
 - A **card game** developed as part of a software engineering project.
 - Several responsive websites built for various clients.
 
-![Project Preview](https://www.swic.edu/wp-content/uploads/2021/05/portfolio.png)
+![Project Preview](https://mynavi-creator.jp/knowhow/images/img_profile-of-a-portfolio_00_01.webp)
 
 ### Skills
 I am proficient in the following programming languages:
