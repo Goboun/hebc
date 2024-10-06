@@ -68,7 +68,7 @@ This portfolio allows you to:
 - **Review my technical skills** and areas of expertise.
 - **Contact me** directly for professional inquiries through an integrated form.
 
-![Portfolio Features](https://st2.depositphotos.com/1258938/7766/i/450/depositphotos_77668624-stock-photo-subway-train-paris-france.jpg)
+![Portfolio Features](https://www.cnil.fr/sites/cnil/files/styles/contenu_generique_visuel/public/thumbnails/image/ordinateur-smartphone-effacer-donnees.jpg?itok=cd2mp7uJ)
 
 ---
 
