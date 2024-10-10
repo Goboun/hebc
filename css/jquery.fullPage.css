@@ -1,36 +1,31 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    /* Couleur de fond sombre pour le thème violet */
-    background-color: #3e1a78;
-    /* Couleur du texte blanche pour le contraste */
-    color: #ffffff;
+    overflow: hidden; /* Empêche le débordement */
+    background-color: #3e1a78; /* Fond sombre */
+    color: #ffffff; /* Couleur du texte */
 }
 
 #superContainer {
     height: 100%;
-    position: relative;
-    /* Action tactile pour Windows 8 */
-    -ms-touch-action: none;
-    /* Pour IE 11 sur Windows Phone 8.1 */
-    touch-action: none;
+    position: relative; /* Positionnement relatif */
+    -ms-touch-action: none; /* Action tactile pour Windows 8 */
+    touch-action: none; /* Pour IE 11 */
 }
 
 .fp-section {
-    position: relative;
-    box-sizing: border-box; /* Pour le dimensionnement */
-    /* Couleur de fond moyen pour les sections */
-    background-color: #4b2e9c;
+    position: relative; 
+    box-sizing: border-box; /* Dimensionnement */
+    background-color: #4b2e9c; /* Fond moyen */
 }
 
 .fp-slide {
-    float: left; /* Permet de faire défiler les diapositives horizontalement */
+    float: left; /* Défilement horizontal */
 }
 
 .fp-slide, .fp-slidesContainer {
-    height: 100%;
-    display: block; /* Affiche les diapositives */
+    height: 100%; 
+    display: block; /* Affichage des diapositives */
 }
 
 .fp-slides {
@@ -38,37 +33,37 @@ html, body {
     height: 100%;
     overflow: hidden; /* Masque le débordement */
     position: relative;
-    transition: all 0.3s ease-out; /* Transition douce pour les animations */
+    transition: all 0.3s ease-out; /* Transition douce */
 }
 
 .fp-section.fp-table, .fp-slide.fp-table {
-    display: table; /* Permet une disposition en table */
-    table-layout: fixed; /* Fixe la mise en page de la table */
+    display: table; /* Disposition en table */
+    table-layout: fixed; /* Mise en page fixe */
     width: 100%; /* Largeur de 100% */
 }
 
 .fp-tableCell {
-    display: table-cell; /* Affichage des cellules de table */
-    vertical-align: middle; /* Alignement vertical au centre */
+    display: table-cell; /* Affichage des cellules */
+    vertical-align: middle; /* Alignement vertical */
     width: 100%;
     height: 100%;
 }
 
 .fp-slidesContainer {
-    float: left; /* Permet de faire défiler le conteneur de diapositives */
+    float: left; /* Défilement des diapositives */
     position: relative;
 }
 
 .fp-controlArrow {
     position: absolute;
-    z-index: 4; /* Z-index pour superposer les flèches */
-    top: 50%;
-    cursor: pointer; /* Change le curseur sur hover */
+    z-index: 4; /* Superposition */
+    top: 50%; 
+    cursor: pointer; /* Curseur sur hover */
     width: 0;
     height: 0;
-    border-style: solid; /* Style de bord pour créer des flèches */
+    border-style: solid; /* Création des flèches */
     margin-top: -38px; /* Centrage vertical */
-    transform: translate3d(0, 0, 0); /* Optimisation pour la performance */
+    transform: translate3d(0, 0, 0); /* Optimisation */
 }
 
 .fp-controlArrow.fp-prev {
@@ -84,20 +79,20 @@ html, body {
 }
 
 .fp-scrollable {
-    overflow: scroll; /* Permet le défilement */
+    overflow: scroll; /* Défilement */
 }
 
 .fp-notransition {
-    transition: none !important; /* Désactive les transitions */
+    transition: none !important; /* Désactivation des transitions */
 }
 
 #fp-nav {
     position: fixed; /* Navigation fixe */
-    z-index: 100; /* Z-index pour superposition */
+    z-index: 100; /* Superposition */
     margin-top: -32px; /* Ajustement de la position */
     top: 50%;
     opacity: 1; /* Opacité complète */
-    transform: translate3d(0, 0, 0); /* Optimisation pour la performance */
+    transform: translate3d(0, 0, 0); /* Optimisation */
 }
 
 #fp-nav.right {
@@ -110,7 +105,7 @@ html, body {
 
 .fp-slidesNav {
     position: absolute; /* Navigation des diapositives */
-    z-index: 4; /* Z-index pour superposition */
+    z-index: 4; /* Superposition */
     left: 50%; /* Centrage horizontal */
     opacity: 1; /* Opacité complète */
 }
@@ -126,7 +121,7 @@ html, body {
 #fp-nav ul,
 .fp-slidesNav ul {
     margin: 0;
-    padding: 0; /* Réinitialisation des marges et remplissages */
+    padding: 0; /* Réinitialisation des marges */
 }
 
 #fp-nav ul li,
@@ -135,18 +130,18 @@ html, body {
     width: 14px; /* Largeur des indicateurs */
     height: 13px; /* Hauteur des indicateurs */
     margin: 7px; /* Marge autour des indicateurs */
-    position: relative; /* Position relative pour les éléments */
+    position: relative; /* Position relative */
 }
 
 .fp-slidesNav ul li {
-    display: inline-block; /* Affichage en ligne pour la navigation des diapositives */
+    display: inline-block; /* Affichage en ligne */
 }
 
 #fp-nav ul li a,
 .fp-slidesNav ul li a {
     display: block; /* Affichage des liens */
     position: relative;
-    z-index: 1; /* Z-index pour superposition */
+    z-index: 1; /* Superposition */
     width: 100%;
     height: 100%;
     cursor: pointer; /* Curseur pointeur sur hover */
@@ -160,21 +155,21 @@ html, body {
     height: 12px; /* Hauteur des indicateurs actifs */
     width: 12px; /* Largeur des indicateurs actifs */
     margin: -6px 0 0 -6px; /* Ajustement des marges */
-    border-radius: 100%; /* Coins arrondis pour les indicateurs */
+    border-radius: 100%; /* Coins arrondis */
 }
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%; /* Indicateurs ronds */
-    position: absolute; /* Position absolue pour centrer les indicateurs */
-    z-index: 1; /* Z-index pour superposition */
+    position: absolute; /* Position centrée */
+    z-index: 1; /* Superposition */
     height: 4px; /* Hauteur des indicateurs */
     width: 4px; /* Largeur des indicateurs */
     border: 0; /* Pas de bordure */
-    background: #ffffff; /* Couleur blanche pour les indicateurs */
+    background: #ffffff; /* Couleur blanche */
     left: 50%; /* Centrage horizontal */
     top: 50%; /* Centrage vertical */
-    margin: -2px 0 0 -2px; /* Ajustement des marges pour centrer */
+    margin: -2px 0 0 -2px; /* Ajustement des marges */
     transition: all 0.1s ease-in-out; /* Transition douce */
 }
 
@@ -186,13 +181,13 @@ html, body {
 }
 
 #fp-nav ul li .fp-tooltip {
-    position: absolute; /* Position absolue pour les info-bulles */
+    position: absolute; /* Position des info-bulles */
     top: -2px; /* Position en haut de l'élément */
-    color: #ffffff; /* Couleur blanche pour le texte des info-bulles */
-    font-size: 14px; /* Taille de police pour le texte */
+    color: #ffffff; /* Couleur du texte */
+    font-size: 14px; /* Taille de police */
     font-family: Arial, Helvetica, sans-serif; /* Famille de police */
     white-space: nowrap; /* Empêche le retour à la ligne */
-    max-width: 220px; /* Largeur maximale des info-bulles */
+    max-width: 220px; /* Largeur maximale */
     overflow: hidden; /* Masque le débordement */
     display: block; /* Affichage par défaut */
     opacity: 0; /* Invisible par défaut */
@@ -201,9 +196,9 @@ html, body {
 
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
-    transition: opacity 0.2s ease-in; /* Transition d'opacité douce */
+    transition: opacity 0.2s ease-in; /* Transition d'opacité */
     width: auto; /* Largeur automatique au survol */
-    opacity: 1; /* Rend visible au survol */
+    opacity: 1; /* Visible au survol */
 }
 
 #fp-nav ul li .fp-tooltip.right {
