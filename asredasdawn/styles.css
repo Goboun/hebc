@@ -14,15 +14,13 @@ body {
 .book-container {
     width: 60%;
     max-width: 700px;
-    max-height: 80vh; /* Limite la hauteur de la page */
-    padding: 40px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     line-height: 1.6;
     text-align: justify;
     position: relative;
-    overflow-y: auto; /* Ajoute le défilement si le texte dépasse */
 }
 
 /* Styles pour chaque page du livre */
@@ -33,6 +31,13 @@ body {
 .page.active {
     display: block; /* Affiche uniquement la page active */
     animation: fadeIn 0.6s ease;
+}
+
+/* Conteneur de texte pour chaque page avec défilement */
+.page-content {
+    max-height: 60vh; /* Limite la hauteur du texte à 60% de l'écran */
+    overflow-y: auto; /* Ajoute le défilement uniquement sur le contenu de la page */
+    padding-right: 10px; /* Ajoute un espace pour le défilement */
 }
 
 /* Effet d'apparition pour chaque page */
