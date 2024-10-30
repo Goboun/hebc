@@ -5,10 +5,9 @@ body {
     background-color: #f5f1e8;
     margin: 0;
     
-    padding: 0;
+    width: 80%;
+    height: 300px; /* Hauteur fixe */
     overflow-y: auto; /* Ajoute un défilement vertical */
-    height: 2000px; /* Simule un contenu long */
-    background-color: #f0f0f0;
     
     display: flex;
     flex-direction: column;
