@@ -3,59 +3,27 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Lecture - As Red As Dawn - De Leena HDF</title>
-      <style>
-          /* Styles pour la mise en page du texte */
-          body {
-              font-family: Arial, sans-serif;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              height: 100vh;
-              margin: 0;
-              background-color: #f4f4f9;
-          }
-          .book-container {
-              width: 60%;
-              max-width: 600px;
-              text-align: justify;
-              padding: 20px;
-              border: 1px solid #ccc;
-              background-color: #fff;
-              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          }
-          .page {
-              display: none; /* Par défaut, on cache toutes les pages */
-          }
-          .page.active {
-              display: block; /* Affiche uniquement la page active */
-          }
-          .navigation {
-              text-align: center;
-              margin-top: 20px;
-          }
-          .navigation button {
-              padding: 10px 20px;
-              font-size: 16px;
-              cursor: pointer;
-          }
-      </style>
+      <title>Lecture - As Red As Dawn</title>
+      <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body>  
     <div class="book-container">
         <!-- Page 1 -->
         <div class="page active">
+            <h2>Introduction</h2>
             <p>Mon histoire n'est pas un conte de fées. C'est l'histoire d'une princesse déchue et de son combat pour devenir reine...</p>
         </div>
         
         <!-- Page 2 -->
         <div class="page">
-            <p>Chapitre 1<br>J'avais quatorze ans lorsque j'ai acquis ce que ma défunte mère m'avait laissé...</p>
+            <h2>Chapitre 1</h2>
+            <p>J'avais quatorze ans lorsque j'ai acquis ce que ma défunte mère m'avait laissé...</p>
         </div>
     
-        <!-- Ajoutez d'autres pages ici, une page par div .page -->
+        <!-- Ajoutez d'autres pages ici -->
         <div class="page">
-            <p>Chapitre 2<br>Le voleur me regarda pendant quelques secondes d'un air stupéfait...</p>
+            <h2>Chapitre 2</h2>
+            <p>Le voleur me regarda pendant quelques secondes d'un air stupéfait...</p>
         </div>
     
         <!-- Navigation -->
@@ -65,30 +33,6 @@
         </div>
     </div>
     
-    <script>
-        // JavaScript pour gérer la navigation entre les pages
-        let currentPage = 0;
-        const pages = document.querySelectorAll('.page');
-    
-        function showPage(pageIndex) {
-            pages.forEach((page, index) => {
-                page.classList.toggle('active', index === pageIndex);
-            });
-        }
-    
-        function nextPage() {
-            if (currentPage < pages.length - 1) {
-                currentPage++;
-                showPage(currentPage);
-            }
-        }
-    
-        function prevPage() {
-            if (currentPage > 0) {
-                currentPage--;
-                showPage(currentPage);
-            }
-        }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
