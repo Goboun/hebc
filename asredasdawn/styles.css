@@ -6,6 +6,7 @@ body {
     margin: 0;
     
     padding: 0;
+    overflow-y: auto; /* Ajoute un défilement vertical */
     height: 2000px; /* Simule un contenu long */
     background-color: #f0f0f0;
     
