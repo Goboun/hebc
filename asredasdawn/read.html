@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Lecture - As Red As Dawn</title>
-      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>  
-    <h1>De Leehay</h1>
-    <div class="book-container">
-        <!-- Page 1 -->
-        <div class="page active">
-            <h2>Introduction</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture - As Red As Dawn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>As Red As Dawn</h1>
+    <h2>par [Auteur]</h2>
+</div>
+
+<div class="book-container">
+    <!-- Page 1 -->
+    <div class="page active">
+        <h3>Introduction</h3>
+        <div class="page-content">
             <p>Mon histoire n'est pas un conte de fées. C'est l'histoire d'une princesse déchue et de son
 combat pour devenir reine. C'est l'histoire d'une montée en puissance sanglante. C'est
 l'histoire d'un règne qui a marqué les esprits à jamais. Et enfin, c'est l'histoire d'une jeune
@@ -46,10 +52,12 @@ Les battements d'ailes d'un papillon peuvent provoquer des tempêtes de l'autre 
 globe. Si, aussi faible soit-il, ce petit papillon pouvait faire de tels ravages, alors sûrement
 moi, la petite princesse déchue, pourrais faire de même…</p>
         </div>
-        
-        <!-- Page 2 -->
-        <div class="page">
-            <h2>Chapitre 1</h2>
+    </div>
+    
+    <!-- Page 2 -->
+    <div class="page">
+        <h3>Chapitre 1</h3>
+        <div class="page-content">
             <p>J'avais quatorze ans lorsque j'ai acquis ce que ma défunte mère m'avait laissé, quinze
 quand j'ai découvert l'existence de ma grande sœur, seize quand j'ai réalisé que mes
 tentatives de conquête du pouvoir resteraient vaines tant que je n'aurais pas d'alliés.
@@ -226,10 +234,12 @@ Je plantais ensuite mon regard dans le sien, sans faillir.
 "Tu vas me rendre mes bijoux." J'ai déclaré d'une voix plus assurée que jamais.
 "Tu vas me rendre mes bijoux, et tu vas m'accompagner…"</p>
         </div>
-    
-        <!-- Ajoutez d'autres pages ici -->
-        <div class="page">
-            <h2>Chapitre 2</h2>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page">
+        <h3>Chapitre 2</h3>
+        <div class="page-content">
             <p>Le voleur me regarda pendant quelques secondes d'un air stupéfait, avec d'éclater de rire.
 "Je vois, plutôt comique comme réaction pour une petite fille en danger. Et donc, en quel
 honneur me fais tu cette demande ?" Il demanda d'un air malicieux.
@@ -356,14 +366,15 @@ abnégation.
 Sa question me fit me crisper accidentellement. Devrais-je être honnête ? Ou bien devrais-je
 lui mentir ?</p>
         </div>
-    
-        <!-- Navigation -->
-        <div class="navigation">
-            <button onclick="prevPage()">Page Précédente</button>
-            <button onclick="nextPage()">Page Suivante</button>
-        </div>
     </div>
-    
-    <script src="script.js"></script>
-  </body>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button onclick="prevPage()">Page Précédente</button>
+        <button onclick="nextPage()">Page Suivante</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
