@@ -52,8 +52,8 @@ I am proficient in the following programming languages:
 ## Useful Links
 ***
 Check out my online portfolio or connect with me via the following links:
-- [Portfolio HTTP](http://goboun.github.io/hebc/)
-- [Portfolio HTTPS](https://goboun.github.io/hebc/)
+- [Portfolio HTTP](http://goboun.github.io/hebc/portfolio/main.html)
+- [Portfolio HTTPS](https://goboun.github.io/hebc/portfolio/main.html)
 - [GitHub](https://github.com/goboun)
 
 ![Useful Links](https://f.hellowork.com/blogdumoderateur/2013/05/internet-240x193.jpg)
