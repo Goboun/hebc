@@ -3,14 +3,15 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background: linear-gradient(135deg, #1e1e2f, #4e1368);
-  color: #eaeaea;
-  overflow-x: hidden;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); /* Red shadow */
+    background-image: url("images/main_background.jpg");
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #1e1e2f, #4e1368);
+    color: #eaeaea;
+    overflow-x: hidden;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); /* Red shadow */
 }
 
 header {
