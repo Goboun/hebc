@@ -7,16 +7,30 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: linear-gradient(135deg, #1e1e2f, #4e1368);
+    color: #645f5fe5;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
 }
 
 header {
-    background-image: url("images/banner.avif");
-    /*
-    background: #333;
-    */
+    background: linear-gradient(135deg, #4e1368, #1e1e2f);
     color: #fff;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(128, 0, 128, 0.2);
+    border-radius: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 0 5px rgba(128, 0, 128, 0.5);
+
 }
 
 header h1 {
@@ -41,8 +55,17 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px;
-    background: #f4f4f4;
-    border-radius: 8px;
+    background: linear-gradient(135deg, #5c2a99, #162a5c);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+    color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      text-align: left;
 }
 
 .card {
