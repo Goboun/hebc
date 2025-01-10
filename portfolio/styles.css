@@ -10,7 +10,10 @@ body {
 }
 
 header {
+    background-image: url("images/banner.avif");
+    /*
     background: #333;
+    */
     color: #fff;
     padding: 20px;
     text-align: center;
