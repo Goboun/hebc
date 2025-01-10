@@ -3,7 +3,7 @@
 
 This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of a self-taught initiative to design an interactive portfolio using HTML, CSS, and JavaScript. The portfolio showcases my skills, projects, and provides easy access to contact information. It was first launched in October 2024 and is continuously updated to reflect my growth and experiences.
 
-**Current Version:** 8.1 (Updated on 06/10/2024)
+**Current Version:** 8.1 (Updated on 10/10/2025)
 
 ---
 
@@ -22,6 +22,8 @@ This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of
 Welcome to my portfolio! This site is designed to give you an insight into my web development and project management skills. You will find examples of my recent work, details about my ongoing projects, and a simple way to reach me.
 
 My goal is to highlight my expertise in fields such as:
+- **Personal Project Management** and **Team Collaboration**
+- **Software Development (Java, Python)**
 - **Web Development** (HTML, CSS, JavaScript)
 - **Back-End Development** (PHP, SQL)
 - **Project Management** and **Team Collaboration**
