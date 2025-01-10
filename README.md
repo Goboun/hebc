@@ -25,7 +25,7 @@ My goal is to highlight my expertise in fields such as:
 - **Personal Project Management** and **Team Collaboration**
 - **Software Development (Java, Python)**
 - **Web Development** (HTML, CSS, JavaScript)
-- **Back-End Development** (PHP, SQL)
+- **Back-End Development** (PHP, PostgreSQL)
 - **Project Management** and **Team Collaboration**
 - **UX/UI Design**
 
@@ -46,7 +46,7 @@ I invite you to explore some of my recent projects, including:
 ### Skills
 I am proficient in the following programming languages:
 - **Web Languages**: HTML, CSS, JavaScript
-- **Back-End**: PHP, SQL
+- **Back-End**: PHP, PostgreSQL
 - **Programming Languages**: Python, Java, C, Lua
 
 ---
@@ -65,7 +65,7 @@ Check out my online portfolio or connect with me via the following links:
 ## Features
 ***
 This portfolio allows you to:
-- Explore my **recent projects** and accomplishments.
+- Explore my **most interesting projects** and accomplishments.
 - **Download my resume** or view my professional information.
 - **Review my technical skills** and areas of expertise.
 - **Contact me** directly for professional inquiries through an integrated form.
@@ -96,4 +96,4 @@ This portfolio was built using the following technologies:
 
 ---
 
-Thank you for visiting my portfolio. Feel free to explore and reach out if you'd like to discuss my work or potential collaborations!
+Thank you for visiting my portfolio. Feel free to explore and reach out if you'd like to discuss my work or potential collaborations !
