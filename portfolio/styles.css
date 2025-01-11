@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(50, 50, 150, 0.8)), 
-                url("images/banner.avif");
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(50, 50, 150, 0.8)); 
+    /* url("images/banner.avif"); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -21,7 +21,8 @@ body {
 
 /* Header Section */
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/banner.avif");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    /* url("images/banner.avif"); */
     background-size: cover;
     background-position: center;
     color: #fff;
