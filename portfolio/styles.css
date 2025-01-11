@@ -1,108 +1,192 @@
+/* Universal Reset and Box Sizing */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-image: url("images/main_background.jpg");
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(50, 50, 150, 0.8)), 
+                url("images/banner.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #eaeaea;
     overflow-x: hidden;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); /* Red shadow */
 }
 
+/* Header Section */
 header {
-    background-image: url("images/banner.avif");
-    /*
-    background: #333;
-    */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/banner.avif");
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    padding: 20px;
     text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
-    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Navigation */
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Sections */
 section {
-    padding: 20px;
+    padding: 30px 20px;
     margin: 20px;
-    background: #f4f4f4;
-    border-radius: 8px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+    text-align: center;
+}
+
+/* Cards */
 .card {
     background: #fff;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+/* Portfolio Items */
 .portfolio-item {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .portfolio-item img {
     width: 100%;
+    max-width: 500px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.portfolio-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
+    background: #222;
     color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
 }
 
-.social-icon {
+footer .social-icon {
     list-style: none;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
 }
 
-.social-icon li {
+footer .social-icon li {
     display: inline;
-    margin: 0 10px;
 }
 
+footer .social-icon li a {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon li a:hover {
+    color: #fff;
+}
+
+/* Forms */
 form input, form textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f4f4f4;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6b6b;
+    outline: none;
 }
 
 form button {
-    padding: 10px;
-    background: #333;
+    padding: 15px 20px;
+    background: #ff6b6b;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #ff4444;
 }
 
 #confirmation-message {
@@ -111,6 +195,7 @@ form button {
     font-weight: bold;
 }
 
+/* Animations for Hidden Elements */
 .hidden {
     opacity: 0;
     transform: translateY(20px);
