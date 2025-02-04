@@ -1,9 +1,9 @@
-# Portfolio - Henri-Emmanuel BANDOIS-CERVEAU (HEBC)
+# Henri-Emmanuel BANDOIS-CERVEAU (HEBC)
 ***
 
-This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of a self-taught initiative to design an interactive portfolio using HTML, CSS, and JavaScript. The portfolio showcases my skills, projects, and provides easy access to contact information. It was first launched in October 2024 and is continuously updated to reflect my growth and experiences.
+This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of a self-taught initiative to design an interactive portfolio and some others small services using HTML, CSS, and JavaScript. It was first launched in October 2024 and is continuously updated to reflect my growth and experiences.
 
-**Current Version:** 8.1 (Updated on 10/10/2025)
+**Current Version:** 8.6 (Updated on 04/02/2025)
 
 ---
 
@@ -19,27 +19,13 @@ This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of
 
 ## Introduction
 ***
-Welcome to my portfolio! This site is designed to give you an insight into my web development and project management skills. You will find examples of my recent work, details about my ongoing projects, and a simple way to reach me.
-
-My goal is to highlight my expertise in fields such as:
-- **Personal Project Management** and **Team Collaboration**
-- **Software Development (Java, Python)**
-- **Web Development** (HTML, CSS, JavaScript)
-- **Back-End Development** (PHP, PostgreSQL)
-- **Project Management** and **Team Collaboration**
-- **UX/UI Design**
+Welcome to my site, designed to give you an insight into my web development and project management skills. 
 
 ---
 
 ## Overview
 ***
-On this portfolio, you will find:
-
-### Projects
-I invite you to explore some of my recent projects, including:
-- A **transport information website** for the Paris region, featuring train and RER schedules.
-- A **card game** developed as part of a software engineering project.
-- Several responsive websites built for various clients.
+On this website, you will find:
 
 ![Project Preview](https://mynavi-creator.jp/knowhow/images/img_profile-of-a-portfolio_00_01.webp)
 
@@ -96,4 +82,4 @@ This portfolio was built using the following technologies:
 
 ---
 
-Thank you for visiting my portfolio. Feel free to explore and reach out if you'd like to discuss my work or potential collaborations !
+Feel free to explore !
