@@ -78,7 +78,10 @@ section h2 {
     margin-bottom: 20px;
     color: #ff6b6b;
     text-align: center;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6); /* Stronger and more visible shadow */
 }
+
+
 
 /* Cards */
 .card {
