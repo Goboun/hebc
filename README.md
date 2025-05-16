@@ -3,7 +3,7 @@
 
 This website was created by **Henri-Emmanuel BANDOIS-CERVEAU (HEBC)** as part of a self-taught initiative to design an interactive portfolio and some others small services using HTML, CSS, and JavaScript. It was first launched in October 2024 and is continuously updated to reflect my growth and experiences.
 
-**Current Version:** 8.6 (Updated on 04/02/2025)
+**Current Version:** 8.6 (Updated on 16/05/2025)
 
 ## Technologies Used
 ***
