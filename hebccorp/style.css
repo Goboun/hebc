@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Couleurs principales */
+:root {
+  --primary: #b30000;        /* rouge foncé vif */
+  --primary-light: #ff3333;  /* rouge clair lumineux */
+  --primary-dark: #660000;   /* rouge très foncé */
+  --bg: #121212;             /* noir profond */
+  --bg-alt: #1e1e1e;         /* gris sombre */
+  --text: #e0e0e0;           /* gris clair */
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, var(--bg), var(--primary-dark));
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(102,0,0,0.85));
+  box-shadow: 0 4px 25px rgba(0,0,0,0.6);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-light);
+  text-shadow: 0 0 15px var(--primary-light);
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background: var(--primary-dark);
+  color: var(--primary-light);
+  box-shadow: 0 0 12px var(--primary-light);
+}
+
+/* Sections */
+section {
+  padding: 40px 25px;
+  margin: 30px auto;
+  background: var(--bg-alt);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(179, 0, 0, 0.4);
+  max-width: 900px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-light);
+  text-shadow: 0 0 15px var(--primary-light);
+}
+
+/* Cards */
+.card {
+  background: var(--bg);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(179, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px var(--primary-light);
+}
+
+.card h3 {
+  color: var(--primary-light);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #bbb;
+}
+
+/* Formulaire */
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border: 1px solid var(--primary-dark);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #1c1c1c;
+  color: var(--text);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border-color: var(--primary-light);
+  box-shadow: 0 0 12px var(--primary-light);
+  outline: none;
+}
+
+form button {
+  padding: 15px 20px;
+  background: var(--primary);
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 12px var(--primary);
+}
+
+form button:hover {
+  background: var(--primary-dark);
+  box-shadow: 0 0 25px var(--primary-light);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.6);
+  margin-top: 40px;
+}
+
+footer .social-icon {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 12px;
+}
+
+footer .social-icon li a {
+  color: var(--primary-light);
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .social-icon li a:hover {
+  color: var(--text);
+  text-shadow: 0 0 12px var(--primary-light);
+}
