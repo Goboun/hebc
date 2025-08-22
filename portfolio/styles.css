@@ -3,15 +3,15 @@
 
 /* Root Theme Variables */
 :root {
-    --primary: #6a0dad;
-    --primary-light: #9a4dcc;
-    --primary-dark: #4b0783;
-    --accent: #ff6b6b;
-    --bg: #1e1b29;
-    --text: #ffffff;
+    --primary: #b30000;        /* rouge foncé vif */
+    --primary-light: #ff3333;  /* rouge clair lumineux */
+    --primary-dark: #660000;   /* rouge très foncé */
+    --bg: #121212;             /* noir profond */
+    --bg-alt: #1e1e1e;         /* gris très sombre */
+    --text: #e0e0e0;           /* gris clair lisible */
 }
 
-/* Universal Reset and Box Sizing */
+/* Universal Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,16 +19,16 @@
 }
 
 body {
-    background: linear-gradient(135deg, rgba(30, 27, 41, 0.95), rgba(75, 7, 131, 0.9));
+    background: linear-gradient(135deg, var(--bg), var(--primary-dark));
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--text);
     overflow-x: hidden;
 }
 
-/* Header Section */
+/* Header */
 header {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(75, 7, 131, 0.8));
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(102, 0, 0, 0.85));
     text-align: center;
     padding: 60px 20px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
@@ -44,7 +44,7 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #ccc;
+    color: #aaa;
 }
 
 /* Navigation */
@@ -59,7 +59,7 @@ nav ul {
 nav ul li a {
     color: var(--text);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     padding: 8px 15px;
     border-radius: 6px;
     transition: all 0.3s ease-in-out;
@@ -75,9 +75,9 @@ nav ul li a:hover {
 section {
     padding: 40px 25px;
     margin: 30px auto;
-    background: var(--primary-dark);
+    background: var(--bg-alt);
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(154, 77, 204, 0.4);
+    box-shadow: 0 0 20px rgba(179, 0, 0, 0.4);
     max-width: 1000px;
 }
 
@@ -96,7 +96,7 @@ section h2 {
     padding: 20px;
     margin: 20px 0;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(154, 77, 204, 0.3);
+    box-shadow: 0 0 15px rgba(179, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -112,7 +112,7 @@ section h2 {
 }
 
 .card p {
-    color: #ddd;
+    color: #bbb;
 }
 
 /* Portfolio Items */
@@ -125,7 +125,7 @@ section h2 {
     width: 100%;
     max-width: 500px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(154, 77, 204, 0.3);
+    box-shadow: 0 0 15px rgba(179, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -138,7 +138,7 @@ section h2 {
 footer {
     text-align: center;
     padding: 25px;
-    background: var(--bg);
+    background: var(--bg-alt);
     color: var(--text);
     box-shadow: 0 -4px 15px rgba(0,0,0,0.6);
     margin-top: 40px;
@@ -168,10 +168,10 @@ form input, form textarea {
     width: 100%;
     padding: 15px;
     margin: 12px 0;
-    border: 1px solid var(--primary-light);
+    border: 1px solid var(--primary-dark);
     border-radius: 10px;
     font-size: 1rem;
-    background: #2c2c2c;
+    background: #1c1c1c;
     color: var(--text);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -184,7 +184,7 @@ form input:focus, form textarea:focus {
 
 form button {
     padding: 15px 20px;
-    background: var(--primary-light);
+    background: var(--primary);
     color: var(--text);
     border: none;
     border-radius: 10px;
@@ -192,7 +192,7 @@ form button {
     font-size: 1rem;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 12px var(--primary-light);
+    box-shadow: 0 0 12px var(--primary);
 }
 
 form button:hover {
@@ -206,7 +206,7 @@ form button:hover {
     font-weight: bold;
 }
 
-/* Animations for Hidden Elements */
+/* Animations */
 .hidden {
     opacity: 0;
     transform: translateY(25px);
